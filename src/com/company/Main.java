@@ -3,7 +3,7 @@ package com.company;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main implements Suplier, function {
+public class Main implements Suplier {
     public static void main(String[] args) {
 
 
@@ -34,8 +34,4 @@ public class Main implements Suplier, function {
         return null;
     }
 
-    @Override
-    public Object apply(Object o) {
-        return null;
-    }
 }
